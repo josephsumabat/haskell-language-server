@@ -1,1 +1,0 @@
-foo = _new_def
