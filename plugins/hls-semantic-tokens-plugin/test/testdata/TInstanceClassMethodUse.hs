@@ -1,5 +1,0 @@
-module TInstanceClassMethodUse where
-
-
-go  =   (==)
-

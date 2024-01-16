@@ -1,7 +1,0 @@
-cradle:
-  direct:
-    arguments:
-      - "-XCPP"
-      - "-DFLAG"
-      - "CppCond"
-      - "CppHeader"
