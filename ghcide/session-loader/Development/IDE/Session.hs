@@ -637,7 +637,7 @@ loadSessionWithOptions recorder SessionLoadingOptions{..} dir = do
            -- Display a user friendly progress message here: They probably don't know what a cradle is
            let progMsg = "Setting up " <> T.pack (takeBaseName (cradleRootDir cradle))
                          <> " (for " <> T.pack lfp <> ")"
-           eopts <- mRunLspTCallback lspEnv (withIndefiniteProgress progMsg NotCancellable) $
+           eopts <- mRunLspTCallback lspEnv id $
               withTrace "Load cradle" $ \addTag -> do
                   addTag "file" lfp
                   old_files <- readIORef cradle_files

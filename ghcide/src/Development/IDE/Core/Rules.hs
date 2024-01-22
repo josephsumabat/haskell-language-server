@@ -92,7 +92,7 @@ import           Data.List.Extra                              (nubOrdOn)
 import qualified Data.Map                                     as M
 import           Data.Maybe
 import           Data.Proxy
-import qualified Data.Text.Utf16.Rope                         as Rope
+import qualified Data.Text.Utf16.Rope.Mixed                   as Rope
 import qualified Data.Set                                     as Set
 import qualified Data.Text                                    as T
 import qualified Data.Text.Encoding                           as T

@@ -35,7 +35,7 @@ import           Data.IORef
 import           Data.List                                    (foldl')
 import qualified Data.Text                                    as T
 import qualified Data.Text                                    as Text
-import qualified Data.Text.Utf16.Rope                         as Rope
+import qualified Data.Text.Utf16.Rope.Mixed                   as Rope
 import           Data.Time
 import           Data.Time.Clock.POSIX
 import           Development.IDE.Core.FileUtils
