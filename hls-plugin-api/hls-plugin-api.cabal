@@ -41,7 +41,6 @@ library
     Ide.Plugin.HandleRequestTypes
     Ide.Plugin.Properties
     Ide.Plugin.RangeMap
-    Ide.Plugin.Resolve
     Ide.PluginUtils
     Ide.Types
 
